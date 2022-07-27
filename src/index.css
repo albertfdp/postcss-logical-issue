@@ -1,0 +1,7 @@
+:root {
+  --content-width: 300px;
+}
+
+.c {
+  margin-inline-start: var(--content-width);
+}

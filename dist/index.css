@@ -1,0 +1,21 @@
+:root {
+  --content-width: 300px;
+}
+
+[dir="ltr"] .c {
+  margin-left: 300px;
+  margin-left: var(--content-width);
+}
+
+[dir="rtl"] .c {
+  margin-right: 300px;
+  margin-right: var(--content-width);
+}
+
+[dir="ltr"] .c {
+  margin-left: 300px;
+}
+
+[dir="rtl"] .c {
+  margin-right: 300px;
+}

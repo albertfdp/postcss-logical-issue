@@ -1,0 +1,13 @@
+{
+  "name": "postcss-logical-issue",
+  "version": "1.0.0",
+  "main": "dist/index.css",
+  "scripts": {
+    "build": "postcss src/index.css -o dist/index.css"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
+    "postcss-preset-env": "^7.7.2"
+  }
+}
