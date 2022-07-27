@@ -1,5 +1,7 @@
 module.exports = {
   plugins: {
-    "postcss-preset-env": {},
+    "postcss-custom-properties": {},
+    "postcss-logical": {},
+    "postcss-dir-pseudo-class": {},
   },
 };

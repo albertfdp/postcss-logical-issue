@@ -4,7 +4,19 @@ Reproduction of postcss-logical issue
 
 ## Issue
 
-When running `postcss` with `postcss-preset-env`, and using CSS logical properties that use a CSS custom property like:
+When running `postcss` with `postcss-preset-env` or a combination of the following plugins
+
+```js
+module.exports = {
+  plugins: {
+    "postcss-custom-properties": {},
+    "postcss-logical": {},
+    "postcss-dir-pseudo-class": {},
+  },
+};
+```
+
+and an input CSS as:
 
 ```css
 :root {
